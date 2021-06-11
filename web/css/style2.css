@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/06/2021, 09:12:16 AM
+    Author     : Jorge Rivero
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(120deg,#7257FA, #0BB1E3 100%);
+    padding: 20px 60px 20px 30px;
+    border-bottom: thin solid black;
+}
+
+.logo1{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+.logo1 h1{
+    
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.logo1 img{
+    
+    width: 300px;
+    height: 130px;
+    border-radius: 30%;
+    
+}
+
+.menu a{
+    
+    text-decoration: none;
+    font-size: 35px;
+    padding-right: 10px;
+    color: aqua;
+    transition: all 200ms;
+}
+
+.menu a:hover{
+    
+    color: #7257FA;
+    
+}
+
+.adiction1{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.5)0%, rgba(0, 0, 0, 0.5)100%), url("../img/fondo.jpg");
+    background-position: center;
+    background-size: center;
+    text-align: center;
+    
+}
+
+.adiction1 img{
+    
+    width: 500px;
+    height: 300px;
+    border-radius: 30%;
+    
+}
+
+.adiction1 h2{
+    
+    color: white;
+    
+}
+
+.titulo-v{
+    
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.vicios{
+    
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(rgba(0,0,0,0.5)0%, rgba(0, 0, 0, 0.5)100%), url("../img/fondo.jpg");
+}
+
+.vicios img{
+    width: 380px;
+    padding: 5px;
+    transition: all 300ms ease;
+    border-radius: 30px;
+    
+}
+
+.vicios img:hover{
+    
+    cursor: pointer;
+    filter: blur(5px); /*efecto sombra xd*/
+    
+    
+}
+
+.hide{
+    
+    display: none;
+    
+}
+
+.visible{
+    display: block;
+    width: 654px;
+    position: fixed;
+    z-index: 999;
+    top: 12%;
+    left: 25%;
+    padding: 1.7px;
+    
+}
+
+.visible img{
+    width: 650px;
+    border-radius: 20px;
+    
+}
+
+.footer1{
+    width: 100%;
+    height: 80px;
+    background-image:  linear-gradient(120deg,#7257FA, #0BB1E3 100%);
+    text-align: center;
+}
+
+.footer1 p{
+    padding-top: 35px;
+    
+}
+
+.footer1 a{
+    color: #7257FA;
+}
